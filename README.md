@@ -7,7 +7,6 @@ Use SSIS to create a Data Warehouse with SQL
 - [ Project Overview ](#Project-Overview)
 - [ Data Source ](#Data-Source)
 - [ Tools ](#Tools)
-- [ Azure Resources ](#Azure-Resources)
 - [ Data Extraction (Bronze Layer) ](#Data-Extraction-(Bronze-Layer))
 - [ Data Cleaning (Silver Layer) ](#Data-Cleaning-(Silver-Layer))
 - [ Gold Layer](#Gold-Layer)
