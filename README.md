@@ -21,23 +21,22 @@ This project seek to show the extraction of raw data into meaningfull sql views 
 EMR and CMR Data csv files uploaded in the Data Source
 
 ### Tools
-- SSIS
+-  Microsoft Visual Studio (SSIS)
 - SQL Server Management Studio
 
 ### Data Extraction 
-1. Create A json format file for simulating an api call
-2. Use the JSON file to extract the parameter values for the CSV files (Data Source) using an api that we feed into a lookup activity in Synapse Analytics
-3. Use the lookup activity output values to feed the For loop activity which contains the Copy activity for our data sources.
-4. Use parameters to create the file directory system in a hierachical way.
-5. Run the Pipeline and extract the raw data into An Azure Data lake
+1. Create a new Microsoft Microsoft Visual Studio (SSIS) project and create Flat files Datasources for the two Datasets(source_cmr,source_erp)
+2. Create a SQL Data Destination connection and tables for storing information from the two extracted Datasets into the bronze layer 
+3. Create a pipeline for the extraction process
+4. Run the pipeline
 
    ### *Load Data--step 1*
-   
-  ![Screenshot 2025-06-24 174606](https://github.com/user-attachments/assets/903e5825-fb6a-44d3-bd03-03e6d0687668)
+   ![Data Flow -Control Flow](https://github.com/user-attachments/assets/e5f16e34-cb10-48e2-a1d0-0b95b4c29485)
 
-   ### *Load Data--step 2*
-  
-  ![Screenshot 2025-06-24 175017](https://github.com/user-attachments/assets/e8bdde12-bf57-4a57-acfa-864127d65946)
+   ### *Connection Properties--step 1*
+   ![image](https://github.com/user-attachments/assets/012c2ee0-8fc6-4faa-8e8a-0bb05babdcc6)
+
+
 
 
 ### Data Cleaning 
