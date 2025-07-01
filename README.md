@@ -1,15 +1,11 @@
 # SSIS-SQL-Data-Warehousing
 Use SSIS to create a Data Warehouse with SQL
 
-## SSIS-SQL-Data-Warehousing Architecture
-![SSIS Data Architecture](https://github.com/user-attachments/assets/e3e65033-39f9-4752-b0f9-a801222f286a)
-
-
-
 
 ## Table Of Contents
 
 - [ Project Overview ](#Project-Overview)
+- [ SSIS-SQL-Data-Warehousing Architecture](#SSIS-SQL-Data-Warehousing-Architecture)
 - [ Data Source ](#Data-Source)
 - [ Tools ](#Tools)
 - [ Data Extraction (Bronze Layer) ](#Data-Extraction-(Bronze-Layer))
@@ -21,6 +17,11 @@ Use SSIS to create a Data Warehouse with SQL
 ### Project Overview
 
 This project seek to show the extraction of raw data into meaningfull sql views for data analytics 
+
+
+## SSIS-SQL-Data-Warehousing Architecture
+
+![SSIS Data Architecture](https://github.com/user-attachments/assets/e3e65033-39f9-4752-b0f9-a801222f286a)
 
 
 ### Data Source
