@@ -10,6 +10,7 @@ Use SSIS to create a Data Warehouse with SQL
 - [ Data Extraction (Bronze Layer) ](#Data-Extraction-(Bronze-Layer))
 - [ Data Cleaning (Silver Layer) ](#Data-Cleaning-(Silver-Layer))
 - [ Gold Layer](#Gold-Layer)
+- [ SSIS Data Flow](#SSIS-Data-Flow)
 
 
 ### Project Overview
@@ -51,12 +52,12 @@ EMR and CMR Data csv files uploaded in the Data Source
 2. Use the silver layer tables to create new Gold views namely gold_dim_customer ,gold_dim_products and gold_facts_sales  views
 
 
-### SSIS Data Flow Digrams
+### SSIS Data Flow
 
- ### *Control Flow Diagram--*
+ ### *Control Flow--*
  ![Control Flow](https://github.com/user-attachments/assets/862b379e-d152-4a63-a6d0-48cac01c4885)
 
- ### *Data Flow Diagram--*
+ ### *Data Flow --*
  ![Data Flow -Control Flow](https://github.com/user-attachments/assets/d7b412d6-3930-40c2-8515-6e0bafad6c1a)
 
 
