@@ -40,23 +40,25 @@ EMR and CMR Data csv files uploaded in the Data Source
 
 
 ### Data Cleaning 
-1. Create an App that you attach a read and write access role using the managed identity
-2. Use the app creadentials to attach it to the DataBricks application to connect to the Bronze Layer(pyspark code in Scripts folder)
-3. Load Data into the Silver layer by using Pyspark
-4. Remove duplicates, null values and create three tables namely dim_products, dim_customer, facts_sales
-5. Store tables in the Silver layer as delta format
+1. Check for data quality by using the sql script (Data quality) located in the scripts folder
+2. Remove all duplicates and check for Consistancy for all tables
+3. Create a stored procedure (Silver Layer) in the scripts folder and execute it to store the new tables in the Silver Layer
    
-
-   ### *Silver Layer*
-   ![Screenshot 2025-06-24 175611](https://github.com/user-attachments/assets/3e17e064-58cd-4307-aff4-1fe145cc681d)
 
 
 ### Gold Layer (Views)
-1. Create a Serveless SQL Server in Azure Sysnapse Analytics.
-2. Create a Database called Datawarehouse
-3. Extract Delta data from the Silver layer using SQL and create gold_views namely customer ,products and sales gold views
+1. Run data quality checks from the silver layer
+2. Use the silver layer tables to create new Gold views namely gold_dim_customer ,gold_dim_products and gold_facts_sales  views
 
-   
+
+### SSIS Data Flow Digrams
+
+ ### *Control Flow Diagram--*
+ ![Control Flow](https://github.com/user-attachments/assets/862b379e-d152-4a63-a6d0-48cac01c4885)
+
+ ### *Data Flow Diagram--*
+ ![Data Flow -Control Flow](https://github.com/user-attachments/assets/d7b412d6-3930-40c2-8515-6e0bafad6c1a)
+
 
  #  The End
 
