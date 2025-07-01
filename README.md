@@ -20,8 +20,9 @@ This project seek to show the extraction of raw data into meaningfull sql views 
 
 
 ## SSIS-SQL-Data-Warehousing Architecture
+ ![SSIS Data Architecture](https://github.com/user-attachments/assets/47a33617-a605-4913-92bb-4667c395003f)
 
-![SSIS Data Architecture](https://github.com/user-attachments/assets/e3e65033-39f9-4752-b0f9-a801222f286a)
+
 
 
 ### Data Source
